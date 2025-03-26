@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/task"; 
+const API_URL = "https://task-mangement-backend-9n12.onrender.com/task"; 
 
 // Create a task (POST request)
 export const createTask = async (taskData) => {
